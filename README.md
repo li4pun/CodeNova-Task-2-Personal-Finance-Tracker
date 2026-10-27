@@ -30,45 +30,36 @@ The project uses Java's `BigDecimal` for accurate monetary calculations and CSV 
 
 ## 4. Project Structure
 
-## Project Structure
+## 4. Project Structure
 
-
+```text
 Task-2-Personal-Finance-Tracker/
-│
 ├── src/
 │   ├── app/
 │   │   └── Main.java
-│   │
 │   ├── model/
 │   │   ├── Transaction.java
 │   │   └── TransactionType.java
-│   │
 │   ├── service/
 │   │   └── FinanceService.java
-│   │
 │   └── storage/
 │       ├── SummaryExporter.java
 │       └── TransactionStorage.java
-│
 ├── data/
 │   └── transactions.csv
-│
 ├── exports/
 │   └── financial-summary.csv
-│
 ├── screenshots/
 │   ├── 1-Main-menu.png
 │   ├── 2-Financial-Summary.png
 │   └── 3-exported-csv.png
-│
-├── out/      # Compiled Java classes
-│   ├── app/
-│   ├── model/
-│   ├── service/
-│   └── storage/
-│
 ├── .gitignore
 └── README.md
+```
+
+
+
+
 
 ## 5. How to Run
 
