@@ -68,7 +68,7 @@ Open a terminal in the project root directory.
 Compile the source files:
 
 ```powershell
-javac -d out src/model/*.java src/service/*.java src/storage/*.java src/app/*.java
+javac -d out src\model\*.java src\service\*.java src\storage\*.java src\app\*.java
 ```
 
 Run the application:
